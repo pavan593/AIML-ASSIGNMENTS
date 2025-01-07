@@ -1,0 +1,401 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "84774f89-bca2-4d6d-b4d2-6085b7c373a5",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid decimal literal (587577118.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;36m  Cell \u001b[1;32mIn[10], line 1\u001b[1;36m\u001b[0m\n\u001b[1;33m    1st1 = [1, 8, 9, 0,10,20,78,8,8,8]\u001b[0m\n\u001b[1;37m    ^\u001b[0m\n\u001b[1;31mSyntaxError\u001b[0m\u001b[1;31m:\u001b[0m invalid decimal literal\n"
+     ]
+    }
+   ],
+   "source": [
+    "1st1 = [1, 8, 9, 0,10,20,78,8,8,8]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "e24d661b-258d-4f67-87ed-304edc5fdac7",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid decimal literal (1466479496.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;36m  Cell \u001b[1;32mIn[2], line 1\u001b[1;36m\u001b[0m\n\u001b[1;33m    s2 = set(1st1)\u001b[0m\n\u001b[1;37m             ^\u001b[0m\n\u001b[1;31mSyntaxError\u001b[0m\u001b[1;31m:\u001b[0m invalid decimal literal\n"
+     ]
+    }
+   ],
+   "source": [
+    "s2 = set(1st1)\n",
+    "s2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "e7dd403b-8b2f-4392-bb25-9e0519f0535e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s1 = {1,2,3}\n",
+    "s2 = {3,4,5}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "d78d7d92-f645-485f-b95d-308e818df43e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "str1 = \"Welcome aiml class\"\n",
+    "str2 = 'We started with python'\n",
+    "str3 = '''this an awesome class'''"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "c38cc887-27c6-4ff9-a1b7-5faf8556a480",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'str'>\n",
+      "<class 'str'>\n",
+      "<class 'str'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(type (str1))\n",
+    "print(type (str2))\n",
+    "print(type (str3))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "e170e8a9-b771-4900-9fa0-c9d29c02194f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Welcome aiml class\n"
+     ]
+    },
+    {
+     "data": {
+      "text/plain": [
+       "'me ai'"
+      ]
+     },
+     "execution_count": 8,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "print(str1)\n",
+    "str1[5:10]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "f9be03c6-a411-4930-a020-6aaf89d7d3e4",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['__add__',\n",
+       " '__class__',\n",
+       " '__contains__',\n",
+       " '__delattr__',\n",
+       " '__dir__',\n",
+       " '__doc__',\n",
+       " '__eq__',\n",
+       " '__format__',\n",
+       " '__ge__',\n",
+       " '__getattribute__',\n",
+       " '__getitem__',\n",
+       " '__getnewargs__',\n",
+       " '__getstate__',\n",
+       " '__gt__',\n",
+       " '__hash__',\n",
+       " '__init__',\n",
+       " '__init_subclass__',\n",
+       " '__iter__',\n",
+       " '__le__',\n",
+       " '__len__',\n",
+       " '__lt__',\n",
+       " '__mod__',\n",
+       " '__mul__',\n",
+       " '__ne__',\n",
+       " '__new__',\n",
+       " '__reduce__',\n",
+       " '__reduce_ex__',\n",
+       " '__repr__',\n",
+       " '__rmod__',\n",
+       " '__rmul__',\n",
+       " '__setattr__',\n",
+       " '__sizeof__',\n",
+       " '__str__',\n",
+       " '__subclasshook__',\n",
+       " 'capitalize',\n",
+       " 'casefold',\n",
+       " 'center',\n",
+       " 'count',\n",
+       " 'encode',\n",
+       " 'endswith',\n",
+       " 'expandtabs',\n",
+       " 'find',\n",
+       " 'format',\n",
+       " 'format_map',\n",
+       " 'index',\n",
+       " 'isalnum',\n",
+       " 'isalpha',\n",
+       " 'isascii',\n",
+       " 'isdecimal',\n",
+       " 'isdigit',\n",
+       " 'isidentifier',\n",
+       " 'islower',\n",
+       " 'isnumeric',\n",
+       " 'isprintable',\n",
+       " 'isspace',\n",
+       " 'istitle',\n",
+       " 'isupper',\n",
+       " 'join',\n",
+       " 'ljust',\n",
+       " 'lower',\n",
+       " 'lstrip',\n",
+       " 'maketrans',\n",
+       " 'partition',\n",
+       " 'removeprefix',\n",
+       " 'removesuffix',\n",
+       " 'replace',\n",
+       " 'rfind',\n",
+       " 'rindex',\n",
+       " 'rjust',\n",
+       " 'rpartition',\n",
+       " 'rsplit',\n",
+       " 'rstrip',\n",
+       " 'split',\n",
+       " 'splitlines',\n",
+       " 'startswith',\n",
+       " 'strip',\n",
+       " 'swapcase',\n",
+       " 'title',\n",
+       " 'translate',\n",
+       " 'upper',\n",
+       " 'zfill']"
+      ]
+     },
+     "execution_count": 9,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "dir(str)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "93d32111-16ec-4433-8409-e3c44dfecd7b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Welcome aiml class\n"
+     ]
+    },
+    {
+     "data": {
+      "text/plain": [
+       "['Welcome', 'aiml', 'class']"
+      ]
+     },
+     "execution_count": 12,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "print(str1)\n",
+    "str1.split()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "db5de8fa-b4cc-42cb-8aee-ee16fd9e039e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'WWelcome aiml classeWelcome aiml class Welcome aiml classsWelcome aiml classtWelcome aiml classaWelcome aiml classrWelcome aiml classtWelcome aiml classeWelcome aiml classdWelcome aiml class Welcome aiml classwWelcome aiml classiWelcome aiml classtWelcome aiml classhWelcome aiml class Welcome aiml classpWelcome aiml classyWelcome aiml classtWelcome aiml classhWelcome aiml classoWelcome aiml classn'"
+      ]
+     },
+     "execution_count": 14,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "str1.join(str2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "480069dc-0392-4ac6-8f1f-c2c78d4fd348",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'H e l l o .   H o w   a r e   y o u ?'"
+      ]
+     },
+     "execution_count": 18,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "str4 = \"Hello. How are you?\"\n",
+    "' '.join(str4)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "4f8e1601-ce5e-4fcd-afeb-b860c4ee9fe3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "  Hello, How are you?    \n"
+     ]
+    }
+   ],
+   "source": [
+    "#strip() method\n",
+    "str5 = \"  Hello, How are you?    \"\n",
+    "print(str5)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "4f03c92e-9568-4d55-b9f8-f46f8dee76eb",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'Hello, How are you?'"
+      ]
+     },
+     "execution_count": 21,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "str5.strip()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "65ab6dc4-e4d0-4fde-afc4-0af9b511e310",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Example dictionary for product sales analysis\n",
+    "sales_data = {\n",
+    "    \"ProductID\": [101, 102, 103, 104, 105, 106, 107, 108, 109, 110],\n",
+    "    \"ProductName\": [\"Laptop\", \"Mouse\", \"Keyboard\", \"Monitor\", \"Chair\", \"Desk\", \"Webcam\", \"Headphones\", \"Printer\", \"Tablet\"],\n",
+    "    \"Category\": [\"Electronics\", \"Accessories\", \"Accessories\", \"Electronics\", \"Furniture\", \"Furniture\", \"Electronics\", \"Accessories\", \"Electronics\", \"Electronics\"],\n",
+    "    \"PriceRange\": [\"High\", \"Low\", \"Low\", \"Medium\", \"Medium\", \"Medium\", \"Low\", \"Low\", \"Medium\", \"High\"],\n",
+    "    \"StockAvailable\": [15, 100, 75, 20, 10, 8, 50, 60, 25, 12],\n",
+    "}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "d46d39c3-8f65-4ca6-b351-6d9706d5dbf3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "ProductID {101, 102, 103, 104, 105, 106, 107, 108, 109, 110},/n\n",
+      "ProductName {'Desk', 'Tablet', 'Keyboard', 'Webcam', 'Laptop', 'Monitor', 'Printer', 'Mouse', 'Headphones', 'Chair'},/n\n",
+      "Category {'Furniture', 'Accessories', 'Electronics'},/n\n",
+      "PriceRange {'Low', 'Medium', 'High'},/n\n",
+      "StockAvailable {100, 8, 10, 75, 12, 15, 50, 20, 25, 60},/n\n"
+     ]
+    }
+   ],
+   "source": [
+    "for k,v in sales_data.items():\n",
+    "    print(k,set(v), end =',')\n",
+    "    print('/n')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "51ae1a82-465f-4ed9-b0d1-40224ef1dcff",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
